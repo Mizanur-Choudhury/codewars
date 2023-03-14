@@ -17,6 +17,6 @@ def test_multiple_string_number_2():
 def test_leading_spaces():
     assert multiple_string(2, " sup") == (" sup sup")
 
-
+#todo: how to test a user input function
 def test_user_input():
     assert user_input_number(22) == 22
